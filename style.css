@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* design for layout */
+.container{
+    /* border: 2px solid red; */
+    height: 100vh;
+}
+
+/* top_header-1 css */
+.header{
+    height: 100px;
+    /* border: 2px solid green; */
+    background-color: black;
+}
+
+.top_header{
+    height: 50px;
+    /* border: 2px solid cadetblue; */
+}
+
+.header_list{
+    list-style-type: none;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+.header_list>li{
+    display: inline;
+    padding: 15px;
+}
+.header_list>li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: whitesmoke;
+}
+/* for input type search button */
+.search{
+    height: 30px;
+    border-radius: 25px;
+    padding-left: 5px;
+}
+
+/* to set magnifying glass into search bar */
+.fa-magnifying-glass{
+    position: relative;
+    left: -30px;
+}
+
+
+/* For Navigation Bar */
+
+
+.navigation_bar{
+    /* border: 2px solid darkblue; */
+    height: 50px;
+    white-space: nowrap;
+    overflow: auto;
+    /* scrollbar-width: none; */
+}
+
+.navigation_list{
+    list-style-type: none;
+    margin-top: 10px;
+}
+.navigation_list>li a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.navigation_list>li{
+    display: inline;
+    padding: 10px;
+}
+
+.menu_list{
+    position: relative;
+    left: 0;
+    list-style-type: none;
+    /* border: 2px solid red; */
+    width: 250px;
+    height: 83vh;
+    overflow-y: auto;
+}
+.menu_list_item>li{
+ padding-left: 30px; 
+ font-size: 22px;
+}
+
+.title_content{
+    overflow-y: auto;
+    /* border: 2px solid green; */
+    width: 850px;
+    height: 83vh;
+    position: absolute;
+    left: 252px;
+    top: 102px;
+}
+
+.head{
+    padding-top: 100px;
+    padding-left: 20px;
+}
+.button{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.home,.next{
+    height: 50px;
+    width: 100px;
+    font-size: 25px;
+    background-color: rgb(116, 235, 116);
+    border-radius: 10px;
+    border: none;
+    color: whitesmoke;
+}
+.next{
+    position: relative;
+    left: 600px;
+}
+
+/* for advertisement */
+
+.advertise{
+    /* border: 2px solid blueviolet; */
+    height: 83vh;
+    width: 250px;
+    position: absolute;
+    right: 0;
+    top: 102px;
+}
+
+
+
